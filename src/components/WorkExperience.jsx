@@ -55,7 +55,7 @@ const WorkExperience = () => {
               
               <a
               download="Syed Athar Resume.pdf"
-              href="/files/Syed Athar Resume.pdf"
+              href="https://raw.githubusercontent.com/syedatharSG/personal-portfolio/main/public/files/Syed%20Athar%20Resume.pdf"
               className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-6 mb-20 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
               aria-label="Download Resume"
               >
