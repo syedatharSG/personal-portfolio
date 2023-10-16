@@ -27,13 +27,13 @@
 		"web-vitals": "^1.0.1"
 	},
 	"scripts": {
+		"predeploy": "yarn run build",
+		"deploy": "gh-pages -d build",
 		"build": "yarn run react-scripts build",
 		"start": "react-scripts start",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"build:css": "postcss src/css/tailwind.css -o src/css/main.css",
-		"predeploy": "yarn run build",
-		"deploy": "gh-pages -d build"
+		"build:css": "postcss src/css/tailwind.css -o src/css/main.css"
 	},
 	"eslintConfig": {
 		"extends": [
