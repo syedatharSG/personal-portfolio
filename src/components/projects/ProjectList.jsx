@@ -23,7 +23,7 @@ const projects = [
     title: 'Portfolio Website',
     description: "Explore the source code of the portfolio you're currently scrolling through!",
     image: portfolio,
-    sourceCodeLink: 'https://github.com/syedatharSG/PersonalProjects/tree/main/Portfolio',
+    sourceCodeLink: 'https://github.com/syedatharSG/personal-portfolio',
   },
   // Add more projects as needed
 ];

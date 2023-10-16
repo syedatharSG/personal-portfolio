@@ -3,13 +3,14 @@ import {
 	FiLinkedin,
 	FiGlobe,
 } from 'react-icons/fi';
+import { BsBriefcase } from 'react-icons/bs';
 import AppFooterCopyright from './AppFooterCopyright';
 
 const socialLinks = [
 	{
 		id: 1,
-		icon: <FiGlobe />,
-		url: 'https://www.stoman.me/',
+		icon: <BsBriefcase />,
+		url: 'https://syedatharsg.github.io/personal-portfolio/',
 	},
 	{
 		id: 2,

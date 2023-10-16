@@ -26,6 +26,7 @@ function App() {
 					<Suspense fallback={""}>
 						<Routes>
 							<Route path="/" element={<Home />} />
+							<Route path="/personal-portfolio" element={<Home />} />
 							<Route path="work-experience" element={<WorkExperience />} />
 							<Route path="projects" element={<ProjectsList />} />
 							<Route path="about-me" element={<AboutMe />} />
