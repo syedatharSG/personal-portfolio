@@ -14,7 +14,7 @@ const WorkExperience = () => {
     position: 'relative',
     borderRadius: '0.75rem',
   };
-  const skillsList = ['C#', '.NET', 'JavaScript', 'PostgreSQL', 'ReactJS', 'Node.js', 'TypeScript', 'Amazon Web Services (AWS)'];
+  const skillsList = ['C#', '.NET', 'JavaScript', 'PostgreSQL', 'React JS', 'Node.js', 'TypeScript', 'Amazon Web Services (AWS)'];
   return (
     <motion.section
 			initial={{ opacity: 0 }}
