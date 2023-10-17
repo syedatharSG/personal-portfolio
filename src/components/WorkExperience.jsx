@@ -6,14 +6,7 @@ import Skills from './Skills';
 
 
 const WorkExperience = () => {
-  const cardStyle = {
-    backgroundImage: `url(${developerWorking})`,
-    backgroundSize: '100%',
-    backgroundPosition: 'right',
-    backgroundRepeat: 'no-repeat', 
-    position: 'relative',
-    borderRadius: '0.75rem',
-  };
+
   const skillsList = ['C#', '.NET', 'JavaScript', 'PostgreSQL', 'React JS', 'Node.js', 'TypeScript', 'Amazon Web Services (AWS)'];
   return (
     <motion.section

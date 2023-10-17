@@ -1,7 +1,6 @@
 import {
 	FiGithub,
 	FiLinkedin,
-	FiGlobe,
 } from 'react-icons/fi';
 import { BsBriefcase } from 'react-icons/bs';
 import AppFooterCopyright from './AppFooterCopyright';

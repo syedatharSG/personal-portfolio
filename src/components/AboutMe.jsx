@@ -1,8 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiArrowDownCircle } from 'react-icons/fi';
 import aboutMe from '../images/avatar.png';
-import Skills from './Skills';
 
 const AboutMe = () => {
     return (
