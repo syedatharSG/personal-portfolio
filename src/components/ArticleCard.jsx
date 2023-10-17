@@ -25,7 +25,7 @@ const ArticleCard = ({ title, imageUrl, date, content, imageUrl2 }) => {
             className="inline-block text-blue-500 hover:underline focus:outline-none"
             onClick={toggleExpand}
           >
-          {!expanded && '.....'}
+          {!expanded && 'see more...'}
           </button>
         )}
         <img src={expanded && imageUrl2} className="w-97 h-48 object-cover rounded-md mx-auto" />
