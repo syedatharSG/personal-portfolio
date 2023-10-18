@@ -17,6 +17,9 @@ import ChildComponentExample2 from '../images/ChildComponentExample2.png';
 import ChildComponentExample3 from '../images/ChildComponentExample3.png';
 import ChildComponentExample4 from '../images/ChildComponentExample4.png';
 
+import ReactHooksArticleImage from '../images/reactHooksArticleImage.png';
+
+
 
 const url = 'https://getlinkpreview.onrender.com/';
 const requestUrl = 'https://www.youtube.com/watch?v=-OO1FqnjVuQ&ab_channel=TheMacLife'; // Replace with the URL you want to preview
@@ -212,6 +215,6 @@ export const articleData = [
         </p>
   
         </>,
-          imageUrl: PropsReactJSArticleImage,
+          imageUrl: ReactHooksArticleImage,
       },
 ]
