@@ -21,7 +21,7 @@ const ArticleList = () => {
 		</p>
         <div className="flex items-center justify-center min-h-screen">
         <div className="grid grid-rows-1 md:grid-rows-2 lg:grid-rows-3 gap-4">
-        {articleData.map((articleData, index) => (
+        {articleData.reverse().map((articleData, index) => (
             <ArticleCard
               key={index}
               title={articleData.title}

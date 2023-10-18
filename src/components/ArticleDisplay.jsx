@@ -6,7 +6,7 @@ const ArticleDisplay = ({ articles }) => {
   const [visibleArticles, setVisibleArticles] = useState(2); // Number of articles to display
 
   const showMoreArticles = () => {
-    setVisibleArticles(visibleArticles);
+    setVisibleArticles(prevVisibleArticles => prevVisibleArticles + 2);
   };
 
   return (
@@ -16,7 +16,7 @@ const ArticleDisplay = ({ articles }) => {
 		</p>
         <div className="flex items-center justify-center min-h-screen">
         <div className="grid grid-rows-1 md:grid-rows-2 lg:grid-rows-3 gap-4">
-      {articles.slice(0, visibleArticles).map((article, index) => (
+      {articles.slice(-2).reverse().map((article, index) => (
         <ArticleCard
           key={index}
           title={article.title}
