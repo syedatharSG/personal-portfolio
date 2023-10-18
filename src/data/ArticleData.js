@@ -202,4 +202,16 @@ export const articleData = [
       </>,
         imageUrl: PropsReactJSArticleImage,
     },
+        /* --------------------------------------------------React Hooks Article ------------------------------------------------------*/
+        {
+          title: "Hooks in React JS",
+          date: "October 18, 2023",
+          content:     <>
+          <p>
+          This article is about React Hooks...
+        </p>
+  
+        </>,
+          imageUrl: PropsReactJSArticleImage,
+      },
 ]
