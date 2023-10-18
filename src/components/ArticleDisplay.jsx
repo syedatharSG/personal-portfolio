@@ -6,7 +6,7 @@ const ArticleDisplay = ({ articles }) => {
   const [visibleArticles, setVisibleArticles] = useState(2); // Number of articles to display
 
   const showMoreArticles = () => {
-    setVisibleArticles(prevVisibleArticles => prevVisibleArticles + 2);
+    setVisibleArticles(visibleArticles);
   };
 
   return (
