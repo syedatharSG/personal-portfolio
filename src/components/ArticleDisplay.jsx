@@ -3,11 +3,7 @@ import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import ArticleCard from './ArticleCard';
 
 const ArticleDisplay = ({ articles }) => {
-  const [visibleArticles, setVisibleArticles] = useState(2); // Number of articles to display
-
-  const showMoreArticles = () => {
-    setVisibleArticles(visibleArticles);
-  };
+  const visibleArticles = 2; // Number of articles to display
 
   return (
     <div className="text-center">
@@ -31,7 +27,7 @@ const ArticleDisplay = ({ articles }) => {
         <Link to="/articles">
           <button
             className="font-general-medium flex justify-center items-center mx-auto w-36 sm:w-48 mt-6 mb-20 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
-            onClick={showMoreArticles}
+            onClick={articles}
           >
             Load More
           </button>
