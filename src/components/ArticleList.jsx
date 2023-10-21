@@ -28,7 +28,6 @@ const ArticleList = () => {
               imageUrl={articleData.imageUrl}
               date={articleData.date}
               content={articleData.content}
-              imageUrl2={articleData.imageUrl2}
             />
           ))}
         </div>

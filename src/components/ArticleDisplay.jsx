@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import ArticleCard from './ArticleCard';
 
@@ -19,7 +19,6 @@ const ArticleDisplay = ({ articles }) => {
           imageUrl={article.imageUrl}
           date={article.date}
           content={article.content}
-          imageUrl2={article.imageUrl2}
         />
       ))}
 

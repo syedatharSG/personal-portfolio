@@ -1,6 +1,6 @@
-import React, { useState, Children, cloneElement } from 'react';
+import React, { useState, Children } from 'react';
 
-const ArticleCard = ({ title, imageUrl, date, content, imageUrl2 }) => {
+const ArticleCard = ({ title, imageUrl, date, content }) => {
   const [expanded, setExpanded] = useState(false);
 
   const toggleExpand = () => {
@@ -28,7 +28,7 @@ const ArticleCard = ({ title, imageUrl, date, content, imageUrl2 }) => {
           {!expanded && 'see more...'}
           </button>
         )}
-        <img src={expanded && imageUrl2} className="w-97 h-48 object-cover rounded-md mx-auto" />
+        <img src={expanded} className="w-97 h-48 object-cover rounded-md mx-auto" />
         
       </div>
     </div>
