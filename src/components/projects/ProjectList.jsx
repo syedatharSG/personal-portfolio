@@ -1,6 +1,5 @@
 import React from 'react';
 import ProjectCard from '../ProjectCard';
-import {motion} from 'framer-motion';
 import weatherApp from '../../images/weatherApp.jpg'
 import ticTacToeApp from '../../images/TicTacToe.png'
 import portfolio from '../../images/portfolioThumbnail.png'

@@ -1,10 +1,7 @@
-import { Link } from 'react-router-dom';
 import AppBanner from '../components/shared/AppBanner';
-import Button from '../components/reusable/Button';
 import WorkExperience from '../components/WorkExperience';
 import ProjectsList from '../components/projects/ProjectList';
 import AboutMe from '../components/AboutMe';
-import ArticleList from '../components/ArticleList';
 import ArticleDisplay from '../components/ArticleDisplay';
 import { articleData } from '../data/ArticleData';
 

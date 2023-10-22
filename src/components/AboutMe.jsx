@@ -17,7 +17,7 @@ const AboutMe = () => {
                     className="w-full sm:w-5/6 md:w-5/6 text-right float-right mt-8 sm:mt-0 mb-4"
                 >
                     <img
-                        src={aboutMe}
+                        src={aboutMe} alt='About-Me'
                     />
                 </motion.div>
         <section className="bg-gray-100">

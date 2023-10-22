@@ -21,11 +21,17 @@ const ArticleCard = ({ title, imageUrl, date, content }) => {
       <div className="font-general-regular prose max-w-none px-6">
         {displayContent}
         {childrenArray[0].props.children.length > 200 && (
+          /* Extra spaces before the 'see more... button to separate the button from the article text*/
+          <span>   </span>
+        )}
+        {childrenArray[0].props.children.length > 200 && (
           <button
-            className="inline-block text-blue-500 hover:underline focus:outline-none"
+            className="inline-block text-blue-500 hover:underline focus:outline-none text-opacity-25"
             onClick={toggleExpand}
           >
-          {!expanded && 'see more...'}
+          {!expanded && (
+              <span className="text-gray-500">   see more...</span>
+            )}
           </button>
         )}
         <img src={expanded} className="w-97 h-48 object-cover rounded-md mx-auto" />

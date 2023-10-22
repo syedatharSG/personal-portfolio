@@ -1,13 +1,11 @@
-import React, { useState, Children, cloneElement } from 'react';
+import React, { useState } from 'react';
 import ArticleCard from './ArticleCard';
 import { articleData } from '../data/ArticleData';
 import {motion} from 'framer-motion';
-import LinkPreview from '@ashwamegh/react-link-preview';
 // If you're using built in layout, you will need to import this css
 
 
 const ArticleList = () => {
-    const [previewData, setPreviewData] = useState(null);
 
   return (
     <motion.section

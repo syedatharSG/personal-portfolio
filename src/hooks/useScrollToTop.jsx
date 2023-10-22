@@ -3,8 +3,6 @@
 
 import { useState, useEffect } from 'react';
 import { FiChevronUp } from 'react-icons/fi';
-import { BiCaretUp } from 'react-icons/bi';
-import { WiDirectionUp } from 'react-icons/wi';
 
 
 
