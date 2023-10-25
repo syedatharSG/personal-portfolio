@@ -42,6 +42,10 @@ export const hooksinReact = {
     <li className='text-left'>UseReducer</li>
     <li className='text-left'>UseCallback</li>
     <li className='text-left'>UseMemo</li>
+
+    <h1 className="mb-4 mt-4 font-general-medium text-2xl">UseState:</h1>
+    <p>UseState is perhaps the most common hook you've come across. It is also the easiest to use and understand in React JS. To remember the state of an object and render the component accordingly, React function components can store an object's state even after execution.
+    We may want our program to behave and display something different, and the useState hook helps us accomplish this goal.  </p>
     </>,
     imageUrl: ReactHooksArticleImage,
 }
