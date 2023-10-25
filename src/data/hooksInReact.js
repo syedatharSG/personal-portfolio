@@ -44,8 +44,8 @@ export const hooksinReact = {
     <li className='text-left'>UseMemo</li>
 
     <h1 className="mb-4 mt-4 font-general-medium text-2xl">UseState:</h1>
-    <p>UseState is perhaps the most common hook you've come across. It is also the easiest to use and understand in React JS. To remember the state of an object and render the component accordingly, React function components can store an object's state even after execution.
-    We may want our program to behave and display something different, and the useState hook helps us accomplish this goal.  </p>
+    <p>UseState is perhaps the most common hook you've come across, and it is also the easiest to understand and implement in React JS. Previously, if we had to store an object's state, we had to follow a series of steps and use class components to achieve the end result. This is an arduous process.
+    With function components, we can achieve similar result by using the useState hook. In a program, we may want to display something different based on an object's state, and the useState hook helps us accomplish this goal.  </p>
     </>,
     imageUrl: ReactHooksArticleImage,
 }
