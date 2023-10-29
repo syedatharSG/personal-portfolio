@@ -53,11 +53,11 @@ export const hooksinReact = {
     <img src={reactUseStateHookExample} alt="UseState hook in React JS" className="mt-8 mb-8 flex justify-center items-center w-99 h-48 object-cover rounded-md mx-auto" />
 
     <p>In the example above, we are utilizing a useState hook to keep track of <em>Count</em> variable. With the use of buttons, we can either increment or decrement 
-    the count value by 1. Here, the code is neat and concise without using any redundant code as it was previously shown in class components. When we declare a useState hook, we can define an initial value of the state, and in this case, we have 0 as denoted by <em> <bold>useState(0)</bold></em>. 
-    The count variable holds this initial value. The setCount variable is responsible for the value we are going to set in the code later on. Hence, when we delcare buttons, we trigger an anonymous function 
-    upon <em>onClick</em> event on the button — we set the setCount variable to increment or decrement with the count value depending on the button you press. There's also the choice to reset count that sets the <em>setCount</em> 
+    the count value by 1. Here, the code is neat and concise without using any redundant code as it was previously shown in class components. When we declare a useState hook, we can define an variable name for the state, and in this case, we have called it <em>count</em>. 
+    TThe setCount is the function that is responsible for the updating the state. Hence, when we delcare buttons, we trigger an anonymous function 
+    upon <em>onClick</em> event on the button — we set the setCount to increment or decrement with the count value depending on the button you press. There's also the choice to reset count that sets the <em>setCount</em> 
     variable to 0. And with this simple yet effective change in approach, we can store an object's state and do some very cool things with it.</p>
-    <p>Compare and contrast it with the class component approach, and it is not so difficult to see why useState hook is preferred over the aforementioned approach. We can write code quickly and succinctly to 
+    <p>Compare and contrast this approach with the class component approach, and it is not so difficult to see why useState hook is preferred over it. We can write code quickly and succinctly to 
     achieve the same end result, and that is essentially the power and main usage of a useState hook! </p>
 
     </>,
