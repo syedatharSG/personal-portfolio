@@ -1,6 +1,8 @@
 import ReactHooksArticleImage from '../images/reactHooksArticleImage.png';
 import reactHooksClassComponentsExample from '../images/reactHooksClassComponentsExample.png';
 import reactHooksFunctionComponentsExample from '../images/reactHooksFunctionComponentsExample.png';
+import reactUseStateHookExample from '../images/reactUseStateHookExample.png';
+
 
 export const hooksinReact = {
     title: "Hooks in React JS",
@@ -44,8 +46,12 @@ export const hooksinReact = {
     <li className='text-left'>UseMemo</li>
 
     <h1 className="mb-4 mt-4 font-general-medium text-2xl">UseState:</h1>
-    <p>UseState is perhaps the most common hook you've come across, and it is also the easiest to understand and implement in React JS. Previously, if we had to store an object's state, we had to follow a series of steps and use class components to achieve the end result. This is an arduous process.
-    With function components, we can achieve similar result by using the useState hook. In a program, we may want to display something different based on an object's state, and the useState hook helps us accomplish this goal.  </p>
+    <p>UseState is perhaps the most common hook you've come across, and it is also the easiest to understand and implement in React JS. Previously, if we had to store an object's state, we had to follow a series of steps and use class components to achieve the end result. This is an arduous process and
+    with function components, we can achieve similar result by using the useState hook. In a program, we may have to keep track of an object's state, and the useState hook helps us accomplish this goal seamlessly. To implement
+    state using useState hook, here's an example: </p>
+
+    <img src={reactUseStateHookExample} alt="UseState hook in React JS" className="mt-8 mb-8 flex justify-center items-center w-99 h-48 object-cover rounded-md mx-auto" />
+
     </>,
     imageUrl: ReactHooksArticleImage,
 }
