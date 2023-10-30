@@ -8,5 +8,5 @@ export const articleData = [
   principlesOfOOP,
   sqlCheatSheet,
   propsInReact,
-  // hooksinReact,
+  hooksinReact,
 ]

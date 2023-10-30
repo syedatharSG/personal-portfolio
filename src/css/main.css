@@ -95,6 +95,10 @@ strong {
   font-weight: bolder;
 }
 
+.bold-text {
+  font-weight: bold;
+}
+
 /*
 1. Use the user's configured `mono` font family by default.
 2. Correct the odd `em` font sizing in all browsers.
